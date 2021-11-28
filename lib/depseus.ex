@@ -1,18 +1,6 @@
 defmodule Depseus do
   @moduledoc """
-  Documentation for `Depseus`.
+  Depseus is a tool to automatically generate GitHub issues in Elixir repos when it's time to update dependencies,
+  Elxir or Erlang.
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Depseus.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end

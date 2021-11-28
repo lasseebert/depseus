@@ -1,21 +1,6 @@
 # Depseus
 
-**TODO: Add description**
+Depseus is a tool to automatically generate GitHub issues in Elixir repos when it's time to update dependencies,
+Elxir or Erlang.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `depseus` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:depseus, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/depseus](https://hexdocs.pm/depseus).
-
+This is a WIP. More docs will be added soon.
