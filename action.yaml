@@ -1,0 +1,14 @@
+name: 'Depseus'
+description: 'Notifies via issues when dependencies need update in Elixir projects'
+inputs:
+  assignee:
+    description: 'Who to assign the issue to'
+    required: false
+outputs:
+  created:
+    description: 'Set to "true" if an issue was created, otherwise "false"'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.assignee }}
