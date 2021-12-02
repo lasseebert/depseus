@@ -1,0 +1,17 @@
+name: Test flow
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Test run
+
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout
+
+        uses: lasseebert/depseus@main
+        name: Depseus
+        with:
+          assignee: 'lasseebert'
