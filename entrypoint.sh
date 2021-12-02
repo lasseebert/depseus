@@ -1,3 +1,5 @@
+#!/bin/bash
+
 assignee=$1
 echo "Hello from Depseus. Assignee is $assignee."
 
