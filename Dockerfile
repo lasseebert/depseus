@@ -1,4 +1,4 @@
-FROM alpine:3.15
+FROM ubuntu:20.04
 
 COPY entrypoint.sh /entrypoint.sh
 
